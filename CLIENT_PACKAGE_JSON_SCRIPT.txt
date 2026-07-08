@@ -1,0 +1,16 @@
+Inside client/package.json, update scripts like this:
+
+"scripts": {
+  "dev": "concurrently \"vite\" \"nodemon ../server.js\"",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview"
+}
+
+Then run from the client folder:
+npm install -D concurrently nodemon
+npm run dev
+
+If your project uses yarn:
+yarn add --dev concurrently nodemon
+yarn dev
