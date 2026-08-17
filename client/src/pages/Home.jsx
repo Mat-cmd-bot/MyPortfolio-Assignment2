@@ -9,6 +9,9 @@ function Home() {
           I build clean and responsive web applications using React, Node.js,
           Express and MongoDB. This portfolio demonstrates my frontend and backend skills.
         </p>
+        <p>
+  This portfolio is continuously improved through testing and automated deployment.
+</p>
         <a className="button" href="/contact">Contact Me</a>
       </div>
       <div className="hero-card">
